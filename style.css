@@ -1,0 +1,123 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+header{
+    background-color: #E2DFB9;
+    height: 50px;
+    padding: 0 15px;
+}
+.navigat{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding-top: 9px;
+}
+.navigat a{
+    text-decoration: none;
+    color: black;  
+
+}
+.navigat a:hover{
+    color: rgb(17, 114, 109);
+
+}
+.navigat li{
+    width: 150px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+/***************************
+********main****************
+***************************/
+main{
+    padding: 0 15px 35px 15px;
+    background-color: #FFFFFF;
+
+}
+.photo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+.photo img{
+    width: 230px;
+    border-radius: 90px;
+}
+h1{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.inform{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.inform div{
+    width: 43%;
+    background-color: #F8F7ED;
+    border-radius: 25px;
+    padding: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+h2{
+    font-size: 26px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    line-height: 28px;
+    text-align: center;
+}
+pre{
+    font-size: 12px;
+}
+ul{
+    list-style: none;
+}
+li,p{
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    line-height: 20px;
+}
+/*****************************
+********footer***************
+*****************************/
+footer{
+    background-color: #EAEAE6;
+    padding: 0 15px;
+    height: 60px;
+}
+footer img{
+    width: 80px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+    margin: 0;
+}
+.footer li{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+}
+footer a{
+    text-decoration: none;
+    color: black; 
+}
+footer a:hover{
+    color: rgb(17, 114, 109);
+}
+footer a img:hover{
+    box-shadow: 0 0 10px rgb(17, 114, 109);
+}
