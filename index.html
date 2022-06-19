@@ -39,33 +39,32 @@
             </div>
             <div>
                 <h2 id="AboutMe">About me</h2>
-                    <p>I am a hardworking, organized, disciplined and motivated RS-School student. I have a main job, programming is my hobby for now. In the future I want to link my work with frontend development.</p>                   
+                    <p>I am a junior frontend developer. I'm 28 years old, live in Republic of Belarus, Mohilew. I have a main job, programming is my hobby for now. In the future I want to link my work with frontend development.</p>                   
             </div>
             <div>
                 <h2 id="Skills">Skills</h2>
                 <ul>
                     <li>HTML</li>
-                    <li>CSS (Bootstrap)</li>
+                    <li>CSS</li>
                     <li>JavaScript (Fundamentals)</li>
-                    <li>Git/GitHub</li>                    
+                    <li>Git/GitHub</li>
+                    <li>Typescript(Fundamentals)</li>                    
                 </ul>
             </div>
             <div>
                 <h2 id="Code">Code</h2>
-                <pre>function chooseCar(){
-    var makes = ["Chevy", "GM", "Fiat", "Webville Motors", "Tucker"];
-    var models = ["Cadillac", "500", "Bel-Air", "Taxi", "Torpedo"];
-    var years = [1955, 1957, 1948, 1954, 1961];
-    
-    var rand1 = Math.floor(Math.random() * makes.length);
-    var rand2 = Math.floor(Math.random() * models.length);
-    var rand3 = Math.floor(Math.random() * years.length);
-    
-    let car = makes[rand1] + ' ' + models[rand2] + ' ' + years[rand3];
-
-    console.log(car);
-}
-    chooseCar();</pre>
+                <pre>Object.defineProperties(Person.prototype, {
+                    name: {
+                      get() {
+                        return this.firstName + ' ' + this.lastName;
+                      },
+                      set(name) {
+                        let fullname = name.split(' ')
+                        this.firstName = fullname[0];
+                        this.lastName = fullname[1] 
+                      },
+                    },
+                  });</pre>
             </div>
             <div>
                 <h2 id="Education">Education</h2>
